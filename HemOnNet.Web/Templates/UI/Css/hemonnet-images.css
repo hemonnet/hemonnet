@@ -1,0 +1,469 @@
+/* 
+	Only used to generate base64-encoded images to the css/hemonnet-images-b64.css file, via CSSEmbed: http://github.com/nzakas/cssembed
+*/
+
+/* Head */
+.logo a {
+	background: url(../images/logo.png) no-repeat;
+}
+
+.press {
+	background: url(../images/site-nav-bar/press.png) no-repeat;
+}
+
+.work-with-us {
+	background: url(../images/site-nav-bar/work-with-us.png) no-repeat;
+}
+
+.support {
+	background: url(../images/site-nav-bar/support.png) no-repeat;
+}
+
+.contact {
+	background: url(../images/site-nav-bar/contact.png) no-repeat;
+}
+
+.easy-to-read {
+	background: url(../images/site-nav-bar/easy-to-read.png) no-repeat;
+}
+
+.party-and-conference {
+	background: url(../images/site-nav-bar/party-and-conference.png) no-repeat;
+}
+
+.choose-language-opener {
+	background: url(../images/site-nav-bar/choose-language.png) no-repeat right top;
+}
+
+.navigation {
+	background: url(../images/site-nav/menu-bg.jpg) no-repeat;
+}
+
+#easy-to-read .navigation,
+#minority-language .navigation {
+	background-position: left bottom;
+}
+
+.site-nav > li.selected,
+.site-nav > li:hover,
+#start-page .site-nav > li.selected,
+#start-page .site-nav > li:hover {
+	background: url(../images/site-nav/menu-item-hover-bg.jpg) repeat-x;
+}
+
+/* Search site */
+.search-site {
+	background: #005195 url(../images/looking-glass.png) no-repeat 90% center;
+}
+
+.search-site-button {
+	background: url(../images/search-button.png) no-repeat;
+}
+
+
+/* Complementary */
+.complementary .sidebar-navigation {
+	background: #ededed url(../images/complementary/navigation-bg.png) no-repeat;
+}
+
+/* Mega menu */
+.mega-menu-header {
+	background: url(../images/site-nav/mega-menu-bg-end-top.png) no-repeat right top;	
+}
+
+.mega-menu-header-content {
+	background: url(../images/site-nav/mega-menu-bg-start-top.png) no-repeat;	
+}
+
+.mega-menu {
+	background: url(../images/site-nav/mega-menu-bg-end.png) repeat-y right top;	
+}
+
+.mega-menu .unit {
+	background: url(../images/phased-border-light.png) repeat-y;
+}
+
+.mega-menu .unit:first-child {
+	background: none;
+}
+
+.mega-menu-content {
+	background: url(../images/site-nav/mega-menu-bg-start.png) repeat-y;
+}
+
+.mega-menu-footer {
+	background: url(../images/site-nav/mega-menu-bg-end-bottom.png) no-repeat right top;	
+}
+
+.mega-menu-footer-content {
+	background: url(../images/site-nav/mega-menu-bg-start-bottom.png) no-repeat;	
+}
+
+/* Choose language menu */
+.choose-language:hover .choose-language-opener-wrapper,
+.choose-language-opener-wrapper.selected {
+	background: url(../images/site-nav-bar/choose-language-tab.png) no-repeat;
+}
+
+.choose-language-header {
+	background: url(../images/site-nav-bar/choose-language-bg-end-top.png) no-repeat right top;	
+}
+
+.choose-language-header-content {
+	background: url(../images/site-nav-bar/choose-language-bg-start-top.png) no-repeat;	
+}
+
+.choose-language-menu {
+	background: url(../images/site-nav-bar/choose-language-bg-end.png) repeat-y right top;	
+}
+
+.choose-language-menu .unit {
+	background: url(../images/phased-border-light.png) repeat-y;
+}
+
+.choose-language-menu .unit:first-child {
+	background: none;
+}
+
+.choose-language-menu-content {
+	background: url(../images/site-nav-bar/choose-language-bg-start.png) repeat-y;
+}
+
+.choose-language-menu-content-inner {
+	background: url(../images/site-nav-bar/world-map.png) no-repeat 10px 1px;
+}
+
+.choose-language-footer {
+	background: url(../images/site-nav-bar/choose-language-bg-end-bottom.png) no-repeat right top;	
+}
+
+.choose-language-footer-content {
+	background: url(../images/site-nav-bar/choose-language-bg-start-bottom.png) no-repeat;	
+}
+
+/* Complementary */
+#easy-to-read .complementary {
+	background: url(../images/menu-side-shadow.png) no-repeat right top
+}
+
+/* Slideshow */
+.main-image-nav a.activeSlide {
+	background-image: url(../images/slideshow/slide-item-selected-bg.png);
+}
+
+.main-image-nav-pause {
+	background-image: url(../images/slideshow/pause.png);
+}
+
+.main-image-nav-play {
+	background-image: url(../images/slideshow/play.png);
+}
+
+.page-main-image h2,
+.page-main-image p,
+.scrollable h2,
+.scrollable p {
+	background: url(../images/plate-bg.png);
+}
+
+.scrollable-small p {
+	background: none;
+}
+
+/* Carousel */
+.video {
+	background: url(../images/video.png) no-repeat;
+}
+
+.carousel-two-size .navi {
+	background: url(../images/carousel/navi-bg.png) repeat-x;
+}
+
+.navi a {
+	background: url(../images/carousel/navi.png) no-repeat;
+}
+
+.navi a.active {
+	background: url(../images/carousel/navi-selected.png) no-repeat;
+}
+
+.carousel-two-size .navi a {
+	background: url(../images/carousel/navi-secondary.png) no-repeat;
+}
+
+.carousel-two-size .navi a.active {
+	background: url(../images/carousel/navi-secondary-selected.png) no-repeat;
+}
+
+
+
+.carousel-container .nextPage {
+	background: url(../images/carousel/next.png) no-repeat 0 center;
+}
+
+.carousel-container .nextPage:hover {
+	background: url(../images/carousel/next-hover.png) no-repeat 0 center;
+}
+
+.carousel-container .nextPage.disabled {
+	background: url(../images/carousel/next-disabled.png) no-repeat 0 center;
+}
+
+.carousel-container .prevPage {
+	background: url(../images/carousel/previous.png) no-repeat 0 center;
+}
+
+.carousel-container .prevPage:hover {
+	background: url(../images/carousel/previous-hover.png) no-repeat 0 center;
+}
+
+.carousel-container .prevPage.disabled {
+	background: url(../images/carousel/previous-disabled.png) no-repeat 0 center;
+}
+
+.carousel-container-small .nextPage,
+.ui-datepicker-next {
+	background: url(../images/carousel/next-small.png) no-repeat 0 center;
+}
+
+.carousel-container-small .nextPage:hover,
+.ui-datepicker-next:hover {
+	background: url(../images/carousel/next-small-hover.png) no-repeat 0 center;
+}
+
+.carousel-container-small .nextPage.disabled {
+	background: url(../images/carousel/next-small-disabled.png) no-repeat 0 center;
+}
+
+.carousel-container-small .prevPage,
+.ui-datepicker-prev {
+	background: url(../images/carousel/previous-small.png) no-repeat 0 center;
+}
+
+.carousel-container-small .prevPage:hover,
+.ui-datepicker-prev:hover {
+	background: url(../images/carousel/previous-small-hover.png) no-repeat 0 center;
+}
+
+.carousel-container-small .prevPage.disabled {
+	background: url(../images/carousel/previous-small-disabled.png) no-repeat 0 center;
+}
+
+.carousel-two-size .nextPage {
+	background: url(../images/carousel/next-white-border.png) no-repeat 0 center;
+}
+
+.carousel-two-size .nextPage:hover {
+	background: url(../images/carousel/next-white-border-hover.png) no-repeat 0 center;
+}
+
+.carousel-two-size .nextPage.disabled {
+	background: url(../images/carousel/next-white-border-disabled.png) no-repeat 0 center;
+}
+
+.carousel-two-size .prevPage {
+	background: url(../images/carousel/previous-white-border.png) no-repeat 0 center;
+}
+
+.carousel-two-size .prevPage:hover {
+	background: url(../images/carousel/previous-white-border-hover.png) no-repeat 0 center;
+}
+
+.carousel-two-size .prevPage.disabled {
+	background: url(../images/carousel/previous-white-border-disabled.png) no-repeat 0 center;
+}
+
+.carousel-two-size {
+	background: url(../images/carousel/two-size-gradient.png) repeat-x;
+}
+
+/* Start page */
+.initial-bulsan {
+	background: url(../images/initial-bulsan.png) no-repeat;
+}
+
+.additional-bulsan {
+	background: url(../images/additional-bulsan.png) no-repeat;
+}
+
+.overlay{
+	background: url(../images/main-image-overlay-shadow.png) no-repeat;
+}
+
+.main-intro {
+	background: url(../images/main-image-bottom.png) no-repeat left bottom;
+}
+
+/* Page intro box */
+.page-intro-box,
+.form-container {
+	background: url(../images/page-intro-box-top.png) no-repeat;
+}
+
+.page-intro-box-inner,
+.form-container-inner {
+	background: url(../images/page-intro-box-sides.png) repeat-y;
+}
+
+.page-intro-box-footer,
+.form-container-footer {
+	background: url(../images/page-intro-box-bottom.png) no-repeat;
+}
+
+/* Info box */
+.info-box {
+	background: url(../images/page-small-box-top.png) no-repeat;
+}
+
+.info-box-content {
+	background: url(../images/page-small-box-sides.png) repeat-y;
+}
+
+.info-box-footer {
+	background: url(../images/page-small-box-bottom.png) no-repeat;
+}
+
+
+
+/* Article media */
+.article-media {
+	background: url(../images/article-media/media-top-bg.png) no-repeat;
+}
+
+.article-media-content {
+	background: url(../images/article-media/media-side-bg.png) repeat-y;
+}
+
+.article-media-footer {
+	background: url(../images/article-media/media-bottom-bg.png) no-repeat;
+}
+
+.media-item,
+#calendar-page .article-media-content h3 {
+	background: url(../images/divider.png) no-repeat;
+}
+
+#calendar-page .article-media-content h3 {
+	background-position: left bottom;
+}
+
+.media-item:first-child {
+	background: none;
+}
+
+.sound {
+	background: url(../images/sound.png) no-repeat;
+}
+
+
+/* 404 */
+.double-red-line {
+	background: url(../images/double-red-line.png) repeat-x;
+}
+
+.double-red-line-below {
+	background-position: left bottom;
+}
+
+
+/* Calendar pages */
+.page-section-header {
+	background: url(../images/divider-wide.png) no-repeat left bottom;
+}
+
+/* Date picker */
+.ui-datepicker-calendar td.chosen-date {
+	background: url(../images/datepicker/today-bg.png) no-repeat;
+}
+
+#calendar-page .box .selected {
+	background: url(../images/datepicker/selected-category.png) repeat-x;
+}
+
+
+/* Push */
+
+.gold {
+	background: #ecd7aa url(../images/push/gold.jpg) no-repeat left bottom;
+}
+
+
+.silver {
+	background: #e5e5e5 url(../images/push/silver.jpg) no-repeat left bottom;
+}
+
+
+.motif-1 {
+	background: url(../images/push/motif-1.png) no-repeat right bottom;
+}
+
+
+.motif-2 {
+	background: url(../images/push/motif-2.png) no-repeat right bottom;
+}
+
+
+/* Lists */
+.main-text-content ul li {
+	background: url(../images/bullet.png) no-repeat 0 4px;
+}
+
+.main-text-content ul li li {
+	background: url(../images/bullet-inner.png) no-repeat 0 4px;
+}
+
+/* Main text */
+.main-text-content a,
+.push-list-images .push p a {
+	background: url(../images/text-content-link-bottom.png) repeat-x left bottom;
+}
+
+.push-image-bottom
+{
+    background: url(../images/image-bottom.jpg) no-repeat left bottom;
+}
+
+.anfang {
+	background: url(../images/anfang.png) repeat-x left bottom;
+}
+
+/* ColorBox */
+#cboxPrevious {
+	background:url(../images/colorbox/previous.png) no-repeat;
+}
+
+#cboxNext {
+	background:url(../images/colorbox/next.png) no-repeat;
+}
+
+#cboxLoadingOverlay {
+	background:url(../images/colorbox/loading_background.png) center center no-repeat;
+}
+
+#cboxLoadingGraphic {
+	background:url(../images/colorbox/loading.gif) center center no-repeat;
+}
+
+#cboxClose {
+	background:url(../images/colorbox/close.png) no-repeat;
+}
+
+
+/* Site entrances */
+.site-entrances {
+	background: url(../images/site-entrances.png) no-repeat left bottom;
+}
+
+#start-page .site-entrances,
+#easy-to-read .site-entrances {
+	background: url(../images/site-entrances-simple.png) no-repeat left bottom;
+}
+
+.additional-site-entrances .line {
+	background: url(../images/phased-border.png) repeat-y right top;
+}
+
+.additional-site-entrances .unit {
+	background: url(../images/phased-border.png) repeat-y;
+}
+

@@ -1,0 +1,130 @@
+﻿<%@ Import Namespace="Bundler.Framework"%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="N2.Templates.UI.Layouts.Default" %>
+<%@ Register TagPrefix="HON" TagName="FooterLinks" Src="Units/FooterLinks.ascx" %>
+<%@ Register TagPrefix="HON" TagName="TopMenu" Src="TopMenu.ascx" %><!DOCTYPE html>
+<html>
+<head runat="server">
+	<meta charset="utf-8">
+	<meta name="google-site-verification" content="ezCG9NjcHy0uP8ihgW9Sf2510H_g2TkHK5s_wVncEks" />
+	<title><asp:Literal ID="ltrTitle" runat="server"></asp:Literal></title>
+	<asp:PlaceHolder runat="server">
+	<% if (IsDebug) { %>
+	    <link rel="stylesheet" href="/Templates/UI/css/oocss-base.css" type="text/css">
+	    <link rel="stylesheet" href="/Templates/UI/css/hemonnet.css" type="text/css">
+	<% } else { %>
+        <link rel="stylesheet" href="<%= GetVersionNumber("/Templates/UI/css/hemonnet-min.css") %>" type="text/css">
+    <% } %>
+    </asp:PlaceHolder>
+    
+	<link rel="Shortcut icon" href="/favicon.png"> 
+	<!--[if gte IE 8]><!-->
+		<link rel="stylesheet" href="/Templates/UI/css/hemonnet-images-b64.css" type="text/css">
+    <!--<![endif]-->
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" href="/Templates/UI/css/ie.css" type="text/css">
+		<link rel="stylesheet" href="/Templates/UI/css/hemonnet-images.css" type="text/css">
+	<![endif]-->
+	<!--[if IE]>
+		<script src="/Templates/UI/js/ie-html5.js"></script>
+	<![endif]-->
+	
+	
+	<asp:ContentPlaceHolder ID="Head" runat="server" />
+</head>
+
+<body id="<%=BodyId %>" class="<%= GetBodyClass() %>">
+    <script>document.body.className = "js-enabled";</script>
+    <div class="page-wrapper">
+        <div id="container" class="page">
+            <div class="skip-links">
+			    <a href="#main-content" accesskey="s">Till innehållet</a>
+		    </div>
+		    
+		    <header class="head" role="banner">
+    			<div class="line">
+			        <h1 class="logo">
+			            <HON:A ID="hypHome" runat="server"></HON:A>
+			        </h1>
+        			
+			    </div>
+		    </header>	
+    			
+		    <nav class="navigation line garamond medium-size" role="navigation">
+			    <HON:TopMenu runat="server" />
+			    <div id="search-site" class="search-site">
+                    Sök
+		            <form method="get" action="<%= SearchPageUrl %>" class="search-site-form" role="search">
+		                <input type="text" id="txtSearchText" name="q" accesskey="4" />
+                        <button type="submit" class="search-site-button" id="btnSearch" value="Sök" >Sök</button>
+		            </form>
+		        </div>
+		    </nav>
+    		
+		    <asp:ContentPlaceHolder ID="AfterMenuContent" runat="server"></asp:ContentPlaceHolder>
+    		
+		    <form id="aspnetForm" runat="server">
+		        <n2:SlidingCurtain ID="sc" runat="server">
+                    <n2:ControlPanel ID="cp" runat="server" />
+                </n2:SlidingCurtain>
+		        <asp:ContentPlaceHolder ID="Content" runat="server">
+		        <article id="main-content" class="body" role="main">
+		            <asp:ContentPlaceHolder ID="PreContentRegion" runat="server"></asp:ContentPlaceHolder>
+		            <section class="main">
+		                 <asp:ContentPlaceHolder ID="MainContentRegion" runat="server">
+		                 </asp:ContentPlaceHolder>
+		                <n2:DroppableZone ID="dzRBelow" runat="server" ZoneName="RecursiveBelow" />
+		                <n2:DroppableZone ID="dzContentZone" ZoneName="Content" runat="server" />
+		            </section>
+    		        
+		        </article>
+		        </asp:ContentPlaceHolder>
+		    </form>
+        
+        
+            <footer id="page-footer" class="foot" role="contentinfo">
+		        <div class="foot-content">
+        			
+			        <div class="line align-left">
+        			
+				        <p class="inline upper-case">
+					        <span class="shaded-text">HemOnNet © 2010</span>
+					    </p>
+			        </div>	
+        			
+			        <HON:FooterLinks runat="server" />
+		        </div>
+	        </footer>
+	    </div>
+    </div>
+    <!--[if lt IE 7]>
+		<div id="information-for-ie6-users">
+			<p>Vi ser att du använder Internet Explorer 6. För en optimal upplevelse av denna webbplats rekommenderar vi en senare version av Internet Explorer, eller någon annan webbläsare, såsom <a href="http://www.mozilla.com/">Firefox</a>, <a href="http://www.google.com/chrome">Google Chrome</a>, <a href="http://www.apple.com/safari/">Safari</a> eller <a href="http://www.opera.com/">Opera</a>.</p>
+		</div>
+	<![endif]-->
+	<asp:PlaceHolder runat="server">
+	<% if (IsDebug) { %>
+	    <script src="/Templates/UI/js/jquery.min.js"></script>
+	    <script src="/Templates/UI/js/jquery.tools.min.js"></script>
+	    <script src="/Templates/UI/js/jquery.cycle.min.js"></script>
+	    <script src="/Templates/UI/js/jquery.colorbox-min.js"></script>
+	    <script src="/Templates/UI/js/jquery.lazyload.mini.js"></script>
+	    <script src="/Templates/UI/js/hemonnet.js"></script>
+    <% } else { %>
+        <script src="<%= GetVersionNumber("/Templates/UI/js/hemonnet-min.js") %>"></script>
+    <% } %>
+	</asp:PlaceHolder>
+    
+    <script>
+        /* Google TRACKING CODE */
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-884927-3']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+        })();
+    </script>
+</body>
+</html>

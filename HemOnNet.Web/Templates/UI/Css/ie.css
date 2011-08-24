@@ -1,0 +1,96 @@
+hr {
+	float: left;
+	margin: 0;
+}
+
+#information-for-ie6-users {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #ffffa2;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	padding: 5px 0;
+}
+
+#information-for-ie6-users p {
+	margin: 0;
+}
+
+#information-for-ie6-users a {
+	color: #00f;
+}
+
+/* jQuery Tools */
+.carousel-two-size .scrollable li .two-size-thumb {
+	display: inline;
+}
+
+/* Site nav bar */
+.choose-language {
+	display: inline;
+}
+
+/* Site navigation */
+.site-nav > li {
+	display: inline;
+}
+
+/* Main content */
+#list-with-preamble .page-introduction  .intro-container p {
+	height: 1%;
+}
+
+.page-intro-box-inner {
+	zoom: 1;
+}
+
+/* Article media */
+.media-item {
+	border: 1px solid transparent;
+}
+
+/* Push */
+.push-content > a {
+	zoom: 1;
+}
+
+/* Lists */
+.horizontal-list {
+	display: inline;
+}
+
+.horizontal-list li {
+	display: inline;
+}
+
+
+/* Page footer */
+.foot-content .inline {
+	display: inline;
+}
+
+/* ColorBox */
+#cboxPrevious,
+#cboxNext,
+#cboxClose {
+	top: 30px;
+}
+
+#cboxCurrent,
+#cboxSlideshow {
+	top: 35px;
+}
+
+/* Highlights */
+.highlights-nav li {
+	display: inline;
+	zoom: 1;
+}
+
+/* Share page */
+body div.addthis_toolbox.addthis_default_style a {
+	display: inline-block;
+	height: 13px;
+}

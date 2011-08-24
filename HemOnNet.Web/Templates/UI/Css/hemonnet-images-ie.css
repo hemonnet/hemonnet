@@ -1,0 +1,215 @@
+/* 
+	Images for IE 7 since it doesn't support base64-encoded images, and utilizes CSS sprites
+*/
+.logo a {
+	background: url(../images/logo.png) no-repeat center top;
+}
+
+.complementary-nav {
+	background: #dde2e4 url(../images/sidebar-bottom-bg.png) no-repeat left bottom;
+}
+
+.complementary-content li.has-children a {
+	background: url(../images/sidebar-item-has-children.png) no-repeat 20px 12px;
+}
+
+.complementary-content li.selected {
+	background: #dcdcdc url(../images/sidebar-selected-item.png) repeat-x;
+}
+
+.complementary-content li a {
+	background: url(../images/sidebar-item.png) no-repeat 20px 14px;
+}
+
+.visitor-info {
+	background: url(../images/start-page-sidebar.png) no-repeat;
+}
+
+.visitor-info ul {
+	background: #fff url(../images/start-page-sidebar-bottom.png) no-repeat left bottom;
+}
+
+.open {
+	background-image: url(../images/visitor-info/open.png);
+}
+
+.prices {
+	background-image: url(../images/visitor-info/prices.png);
+}
+
+.find {
+	background-image: url(../images/visitor-info/find.png);
+}
+
+.highlights {
+	background-image: url(../images/visitor-info/highlights.png);
+}
+
+.main-image-nav a.activeSlide {
+	background-image: url(../images/slideshow/slide-item-selected-bg.png);
+}
+
+.main-image-nav-pause {
+	background-image: url(../images/slideshow/pause.png);
+}
+
+.main-image-nav-play {
+	background-image: url(../images/slideshow/play.png);
+}
+
+.page-main-image h2,
+.page-main-image p {
+	background: url(../images/carousel/plate-bg.png);
+}
+
+.press {
+	/*background: url(../images/site-nav-bar/press.png) no-repeat;*/
+	background: url(../images/sprite1.png) -10px -516px;
+}
+
+.work-with-us {
+	/*background: url(../images/site-nav-bar/work-with-us.png) no-repeat;*/
+	background: url(../images/sprite1.png) -10px -548px;
+}
+
+.support {
+	/*background: url(../images/site-nav-bar/support.png) no-repeat;*/
+	background: url(../images/sprite1.png) -10px -580px;
+}
+
+.contact {
+	/*background: url(../images/site-nav-bar/contact.png) no-repeat;*/
+	background: url(../images/sprite1.png) -10px -612px;
+}
+
+.easy-to-read {
+	/*background: url(../images/site-nav-bar/easy-to-read.png) no-repeat;*/
+	background: url(../images/sprite1.png) -10px -644px;
+}
+
+.choose-language-opener {
+	/*background: url(../images/site-nav-bar/choose-language.png) no-repeat right top;*/
+	background: url(../images/sprite1.png) right -676px;
+}
+
+.navigation {
+	/*background: url(../images/site-nav/site-nav-bg.png) no-repeat;*/
+	background: url(../images/sprite1.png) -10px -10px;
+}
+
+ul.site-nav li {
+	/*background: url(../images/site-nav/item-start-stripe.png) no-repeat;*/
+	background: url(../images/sprite1.png) -10px -708px;
+}
+
+.breadcrumbs {
+	background: #dbdbdb url(../images/breadcrumbs-bg.png) repeat-x;
+}
+
+.breadcrumbs a {
+	/*background: url(../images/breadcrumb-separator.png) no-repeat right center;*/
+	background: url(../images/sprite1.png) right -791px;
+}
+
+.gray-plate {
+	background: url(../images/gray-gradient.jpg) repeat-x;
+}
+
+.info-box {
+	background: #dbeaf1 url(../images/info-box-top.png) no-repeat;
+}
+
+.info-box-content {
+	background: url(../images/info-box-bottom.png) no-repeat left bottom;
+}
+
+.push-init {
+	background: url(../images/push-rounded-top.png) no-repeat;
+}
+
+.push-list-medium .push-init {
+	background: url(../images/push-medium-rounded-top.png) no-repeat;
+}
+
+.push-end {
+	background: url(../images/push-rounded-bottom.png) no-repeat;
+}
+
+.push-list-medium .push-end {
+	background: url(../images/push-medium-rounded-bottom.png) no-repeat;
+}
+
+.ui-datepicker-prev {
+	background: url(../images/datepicker/prev.png) no-repeat;
+}
+
+.ui-datepicker-next {
+	background: url(../images/datepicker/next.png) no-repeat;
+}
+
+.ui-datepicker-calendar td.chosen-date {
+	background: #f6ad16 url(../images/datepicker/today-bg.png) repeat-x;
+}
+
+.video {
+	/*background: url(../images/video.png) no-repeat;*/
+	background: url(../images/sprite1.png) -10px -96px;
+}
+
+.navi a {
+	background: url(../images/carousel/navi.png);
+}
+
+.navi a.active {
+	background: url(../images/carousel/navi-selected.png);
+}
+
+.carousel-container .nextPage,
+.carousel-container-small .nextPage {
+	background: transparent url(../images/carousel/next.png) no-repeat 3px center;
+}
+
+.carousel-container .nextPage.disabled,
+.carousel-container-small .nextPage.disabled {
+	background: transparent url(../images/carousel/next-disabled.png) no-repeat 3px center;
+}
+
+.carousel-container .prevPage,
+.carousel-container-small .prevPage {
+	background: transparent url(../images/carousel/previous.png) no-repeat 3px center;
+}
+
+.carousel-container .prevPage.disabled,
+.carousel-container-small .prevPage.disabled {
+	background: transparent url(../images/carousel/previous-disabled.png) no-repeat 3px center;
+}
+
+.show-highlight-info a {
+	/*background: url(../images/carousel/info.png) no-repeat right center;*/
+	background: url(../images/sprite1.png) 107px -859px;
+}
+
+.foot {
+	/*background: url(../images/footer-bg.png);*/
+	background: url(../images/sprite1.png) -370px -164px;
+}
+
+#cboxPrevious{
+	background:url(../images/carousel/previous.png) no-repeat;
+}
+
+#cboxNext{
+	background:url(../images/carousel/next.png) no-repeat;
+}
+
+#cboxLoadingOverlay{
+	background:url(../images/colorbox/loading_background.png) center center no-repeat;
+}
+
+#cboxLoadingGraphic{
+	background:url(../images/colorbox/loading.gif) center center no-repeat;
+}
+
+#cboxClose{
+	background:url(../images/colorbox/close.png) no-repeat;
+}

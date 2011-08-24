@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/Templates/UI/Layouts/Default.Master" CodeBehind="TwoColumn.master.cs" Inherits="N2.Templates.UI.Layouts.TwoColumn" %>
+<%@ Register TagPrefix="HON" TagName="SubMenu" Src="SubMenu.ascx" %>
+<%@ Register TagPrefix="HON" TagName="BreadCrumbs" Src="~/Templates/UI/Layouts/Units/BreadCrumbs.ascx" %>
+<asp:Content ContentPlaceHolderID="AfterMenuContent" runat="server">
+    <HON:BreadCrumbs runat="server" />
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="PreContentRegion" runat="server">
+    <aside class="complementary" role="complementary">
+		<HON:SubMenu runat="server" ID="ctrlSubMenu" StartLevel="2" />
+		<n2:DroppableZone ID="dzSideLeft" ZoneName="SiteLeft" runat="server" Path="~/" />
+        <n2:DroppableZone ID="dzLeft" ZoneName="Left" runat="server" />
+        <n2:DroppableZone ID="dzRecursiveLeft" ZoneName="RecursiveLeft" runat="server" />
+	</aside>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="MainContentRegion" runat="server">
+    <header class="page-introduction">
+		<h1><asp:Literal ID="ltrHeader" runat="server"></asp:Literal></h1>
+	</header>
+	<n2:DroppableZone ID="dzRAbobe" runat="server" ZoneName="RecursiveAbove" />
+	<asp:ContentPlaceHolder ID="InnerContent" runat="server"></asp:ContentPlaceHolder>
+	
+	
+</asp:Content>
